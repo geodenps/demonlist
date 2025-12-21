@@ -106,18 +106,20 @@ body {
 }
 
 .navbar {
-    background: #222;
-    padding: 10px;
+    background: #0b1020;
+    padding: 14px;
     text-align: center;
+    border-bottom: 1px solid #1f2933;
 }
 
 .navbar a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
+    color: #38bdf8;
+    margin: 0 18px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: 0.2s ease;
 }
 
 .navbar a:hover {
-    text-decoration: underline;
+    color: #7dd3fc;
 }
