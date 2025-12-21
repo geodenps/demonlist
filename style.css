@@ -110,16 +110,19 @@ body {
     padding: 14px;
     text-align: center;
     border-bottom: 1px solid #1f2933;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
 }
 
 .navbar a {
     color: #38bdf8;
-    margin: 0 18px;
+    margin: 0 20px;
     font-size: 1.1rem;
     font-weight: 600;
+    letter-spacing: 0.5px;
     transition: 0.2s ease;
 }
 
 .navbar a:hover {
     color: #7dd3fc;
+    text-shadow: 0 0 6px #38bdf8;
 }
